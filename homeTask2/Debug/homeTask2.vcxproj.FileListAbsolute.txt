@@ -1,0 +1,2 @@
+A:\Coding\Cpp\Git\PP_HW\homeTask2\Debug\homeTask2.exe
+A:\Coding\Cpp\Git\PP_HW\homeTask2\Debug\homeTask2.pdb

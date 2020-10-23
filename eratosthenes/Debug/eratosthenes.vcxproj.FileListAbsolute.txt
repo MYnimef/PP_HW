@@ -1,0 +1,2 @@
+A:\Coding\Cpp\Git\PP_HW\eratosthenes\Debug\eratosthenes.exe
+A:\Coding\Cpp\Git\PP_HW\eratosthenes\Debug\eratosthenes.pdb

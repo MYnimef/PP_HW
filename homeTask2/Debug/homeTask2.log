@@ -1,0 +1,4 @@
+﻿  homeTask2.cpp
+A:\Coding\Cpp\Git\PP_HW\homeTask2\homeTask2.cpp(58,30): warning C4305: инициализация: усечение из "double" в "float"
+A:\Coding\Cpp\Git\PP_HW\homeTask2\homeTask2.cpp(170,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  homeTask2.vcxproj -> A:\Coding\Cpp\Git\PP_HW\homeTask2\Debug\homeTask2.exe

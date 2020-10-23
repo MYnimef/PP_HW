@@ -1,0 +1,7 @@
+﻿  homeTask4.cpp
+A:\Coding\Cpp\Git\PP_HW\homeTask4\homeTask4.cpp(208,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+A:\Coding\Cpp\Git\PP_HW\homeTask4\homeTask4.cpp(441,18): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+A:\Coding\Cpp\Git\PP_HW\homeTask4\homeTask4.cpp(478,5): warning C4305: инициализация: усечение из "double" в "const float"
+A:\Coding\Cpp\Git\PP_HW\homeTask4\homeTask4.cpp(614,66): warning C4244: +=: преобразование "double" в "long", возможна потеря данных
+A:\Coding\Cpp\Git\PP_HW\homeTask4\homeTask4.cpp(671,41): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  homeTask4.vcxproj -> A:\Coding\Cpp\Git\PP_HW\homeTask4\Debug\homeTask4.exe

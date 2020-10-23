@@ -1,0 +1,2 @@
+A:\Coding\Cpp\Git\PP_HW\euclid\Debug\euclid.exe
+A:\Coding\Cpp\Git\PP_HW\euclid\Debug\euclid.pdb

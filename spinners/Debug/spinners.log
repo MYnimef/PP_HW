@@ -1,0 +1,4 @@
+﻿  spinners.cpp
+A:\Coding\Cpp\Git\PP_HW\spinners\spinners.cpp(61,12): warning C4804: >: небезопасное использование типа "bool" в операции
+A:\Coding\Cpp\Git\PP_HW\spinners\spinners.cpp(67,22): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  spinners.vcxproj -> A:\Coding\Cpp\Git\PP_HW\spinners\Debug\spinners.exe
