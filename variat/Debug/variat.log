@@ -1,0 +1,4 @@
+﻿  variat.cpp
+A:\Coding\Cpp\Git\PP_HW\variat\variat.cpp(67,46): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+A:\Coding\Cpp\Git\PP_HW\variat\variat.cpp(150,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  variat.vcxproj -> A:\Coding\Cpp\Git\PP_HW\variat\Debug\variat.exe

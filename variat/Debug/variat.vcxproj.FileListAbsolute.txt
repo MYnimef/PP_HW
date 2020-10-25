@@ -1,0 +1,2 @@
+A:\Coding\Cpp\Git\PP_HW\variat\Debug\variat.exe
+A:\Coding\Cpp\Git\PP_HW\variat\Debug\variat.pdb
