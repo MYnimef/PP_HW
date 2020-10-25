@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <cmath>
 #include <fstream>
-#include <A:\Coding\Cpp\Git\PP_HW\ohMy.cpp>
+#include <A:\\Coding\\Cpp\\Git\\PP_HW\\ohMy.cpp>
 
 using namespace std;
 
@@ -19,30 +19,30 @@ int main()
 
     switch (num)
     {
-    default:
-    {
-        cout << "Joker, yeah?" << endl;
-    }
-    case 1:
-    {
-        task1();
-    }
-    case 2:
-    {
-        task2();
-    }
-    case 3:
-    {
-        task3();
-    }
-    case 4:
-    {
-        task4();
-    }
-    case 5:
-    {
-        task5();
-    }
+        default:
+        {
+            cout << "Joker, yeah?" << endl;
+        }
+        case 1:
+        {
+            task1();
+        }
+        case 2:
+        {
+            task2();
+        }
+        case 3:
+        {
+            task3();
+        }
+        case 4:
+        {
+            task4();
+        }
+        case 5:
+        {
+            task5();
+        }
     }
     cout << endl;
 
@@ -105,7 +105,7 @@ void task3()
     while (task)
     {
         cout << endl << "Task 3 - File" << endl;
-        ifstream file("test.txt");
+        ifstream file("A:\\Coding\\Cpp\\Git\\PP_HW\\homeTask3\\textFiles\\test.txt");
         if (file.is_open())
         {
             char buff[50];
@@ -131,7 +131,7 @@ void task4()
     while (task)
     {
         cout << endl << "Task 4 - Filter" << endl;
-        ifstream file("filter.txt");
+        ifstream file("A:\\Coding\\Cpp\\Git\\PP_HW\\homeTask3\\textFiles\\filter.txt");
         if (file.is_open())
         {
             bool num = false;
@@ -177,22 +177,21 @@ void task5()
     while (task)
     {
         cout << endl << "Task 5 - Sort" << endl;
-        char buff[30];
-        ifstream file("sort.txt");
+        ifstream file("A:\\Coding\\Cpp\\Git\\PP_HW\\homeTask3\\textFiles\\sort.txt");
         if (file.is_open())
         {
+            char buff[50];
             file.getline(buff, 50);
             cout << buff << endl;
             file.close();
 
-            int x;
             for (int i = 0; i < 30; i++)
             {
-                for (int j = 30 - 1; j > i; j--)
+                for (int j = 29; j > i; j--)
                 {
                     if (buff[j - 1] > buff[j])
                     {
-                        x = buff[j - 1];
+                        char x = buff[j - 1];
                         buff[j - 1] = buff[j];
                         buff[j] = x;
                     }

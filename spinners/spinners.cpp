@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <iomanip>
 #include <cmath>
-#include <A:\Coding\Cpp\Git\PP_HW\ohMy.cpp>
+#include <A:\\Coding\\Cpp\\Git\\PP_HW\\ohMy.cpp>
 
 using namespace std;
 
@@ -20,30 +20,30 @@ int main()
 
     switch (num)
     {
-    default:
-    {
-        cout << "Joker, yeah?" << endl;
-    }
-    case 1:
-    {
-        task1();
-    }
-    case 2:
-    {
-        task2();
-    }
-    case 3:
-    {
-        task3();
-    }
-    case 4:
-    {
-        task4();
-    }
-    case 5:
-    {
-        task5();
-    }
+        default:
+        {
+            cout << "Joker, yeah?" << endl;
+        }
+        case 1:
+        {
+            task1();
+        }
+        case 2:
+        {
+            task2();
+        }
+        case 3:
+        {
+            task3();
+        }
+        case 4:
+        {
+            task4();
+        }
+        case 5:
+        {
+            task5();
+        }
     }
 
     return 0;

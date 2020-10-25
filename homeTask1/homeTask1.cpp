@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <cmath>
-#include <A:\Coding\Cpp\Git\PP_HW\ohMy.cpp>
+#include <A:\\Coding\\Cpp\\Git\\PP_HW\\ohMy.cpp>
 
 using namespace std;
 
@@ -18,30 +18,30 @@ int main()
 
     switch (num)
     {
-    default:
-    {
-        cout << "Joker, yeah?" << endl;
-    }
-    case 1:
-    {
-        task1();
-    }
-    case 2:
-    {
-        task2();
-    }
-    case 3:
-    {
-        task3();
-    }
-    case 4:
-    {
-        task4();
-    }
-    case 5:
-    {
-        task5();
-    }
+        default:
+        {
+            cout << "Joker, yeah?" << endl;
+        }
+        case 1:
+        {
+            task1();
+        }
+        case 2:
+        {
+            task2();
+        }
+        case 3:
+        {
+            task3();
+        }
+        case 4:
+        {
+            task4();
+        }
+        case 5:
+        {
+            task5();
+        }
     }
 
     return 0;
@@ -50,19 +50,20 @@ int main()
 void task1()
 {
     cout << endl << "Task 1 - Name." << endl;
-    char name[26];
     bool task = true;
     while (task)
     {
         cout << "Enter your name (not longer than 25 symbols!): ";
+        char name[50] = {};
         cin >> name;
-        while (name[25])
+        if (!name[25])
         {
-            cout << "Enter your name correctly! One more try: ";
-            cin >> name;
+            cout << "Your name is " << name << endl;
         }
-        cout << "Your name is " << name << endl;
-
+        else
+        {
+            cout << "Wrong input" << endl;
+        }
         task = mojemPovtorit();
     }
 }
@@ -86,18 +87,18 @@ void task2()
         switch (choice)
         {
         case 1:
-            cout << v1 + v2 << endl;
+            cout << "Result is " << v1 + v2 << endl;
             break;
         case 2:
-            cout << v1 - v2 << endl;
+            cout << "Result is " << v1 - v2 << endl;
             break;
         case 3:
-            cout << v1 * v2 << endl;
+            cout << "Result is " << v1 * v2 << endl;
             break;
         case 4:
             if (v2)
             {
-                cout << v1 / v2 << endl;
+                cout << "Result is " << v1 / v2 << endl;
             }
             else
             {
@@ -193,7 +194,7 @@ void task4()
 
 void task5()
 {
-    cout << endl << "Task 5 - second equation." << endl;
+    cout << endl << "Task 5 - The light in the darkness." << endl;
     bool task = true;
     while (task)
     {
